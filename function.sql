@@ -1,4 +1,4 @@
-DROP TYPE OLIMP_TABLE;
+DROP TYPE IF EXISTS OLIMP_TABLE;
 /
 CREATE OR REPLACE TYPE OLIMP_RECORD AS OBJECT( 
 CountryName VARCHAR2(50),
@@ -34,4 +34,4 @@ BEGIN
             current_record.olimp_year,
             current_record.medal_color));
     END LOOP;
-END;
+END; 
