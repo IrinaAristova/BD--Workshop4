@@ -54,5 +54,3 @@ CREATE OR REPLACE PACKAGE BODY Olimpiada_package IS
             END;
         
 END Olimpiada_package;
-
-select * from TABLE(Olimpiada_package.GetMedals('China', '2008'));
