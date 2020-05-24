@@ -10,7 +10,8 @@ CREATE OR REPLACE TYPE OLIMP_TABLE AS TABLE OF OLIMP_RECORD;
 create or replace FUNCTION GetMedals(
 CountryName Country.country_name%TYPE,
 OlimpYear Olimpiada.olimp_year%TYPE)
-RETURN OLIMP_TABLE PIPELINED IS
+RETURN OLIMP_TABLE PIPELINED 
+IS
     CURSOR current_cursor IS 
         SELECT 
             Country.country_name,
