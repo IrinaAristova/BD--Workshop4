@@ -6,6 +6,7 @@ INSERT INTO Athlete (athlete_name, gender, country_name) VALUES ('MASHURENKO, Ru
 INSERT INTO Athlete (athlete_name, gender, country_name) VALUES ('COUGHLIN, Natalie', 'Women', 'United States');
 INSERT INTO Athlete (athlete_name, gender, country_name) VALUES ('LI, Jie', 'Men', 'China');
 
+
 INSERT INTO Cities (city_name) VALUES ('Sydney');
 INSERT INTO Cities (city_name) VALUES ('Athens');
 INSERT INTO Cities (city_name) VALUES ('Beijing');
@@ -31,5 +32,11 @@ INSERT INTO Event (event_name) VALUES ('81 - 90kg (middleweight)');
 INSERT INTO Event (event_name) VALUES ('100m backstroke');
 
 INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Judo', '81 - 90kg (middleweight)', 'MASHURENKO, Ruslan', 2000, 'Bronze');
+INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Swimming', '100m backstroke', 'COUGHLIN, Natalie', 2000, 'Gold');
+INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Shooting', '10m air rifle (60 shots)', 'LI, Jie', 2000, 'Silver');
+INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Judo', '81 - 90kg (middleweight)', 'MASHURENKO, Ruslan', 2004, 'Bronze');
 INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Swimming', '100m backstroke', 'COUGHLIN, Natalie', 2004, 'Gold');
+INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Shooting', '10m air rifle (60 shots)', 'LI, Jie', 2004, 'Silver');
+INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Judo', '81 - 90kg (middleweight)', 'MASHURENKO, Ruslan', 2008, 'Bronze');
+INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Swimming', '100m backstroke', 'COUGHLIN, Natalie', 2008, 'Gold');
 INSERT INTO GrantMedal (disciplina_name, event_name, athlete_name, olimpiada_year, medal_color) VALUES ('Shooting', '10m air rifle (60 shots)', 'LI, Jie', 2008, 'Silver');
